@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Montserrat|Orbitron|Play|Quicksand');
+.jumbotron {
+    background-image: url('/public/assets/code.jpeg');
+    background-size: cover;
+    height: 50vh;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    color: #ddd;
+}
+
+.jumbotron button {
+    background-color: #86008D;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+}
+
+.jumbotron button:hover {
+    background-color: #ac09b5;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

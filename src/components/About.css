@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One|Montserrat|Orbitron|Play|Quicksand');
+#vision-para {
+    color: #aaa;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #888;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.bg-grey {
+    background-color: #ddd;
+}
+
+.logo {
+    color: #74AAFF;
+    font-size: 200px;
+}
+
+.logo-small {
+    color: #9D0093;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+}

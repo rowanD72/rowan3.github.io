@@ -1,0 +1,18 @@
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #8E00F4;
+    border: 1px solid #000;
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.btn {
+    background-color: #6EA3FE;
+}
